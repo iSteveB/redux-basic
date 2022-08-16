@@ -20,12 +20,19 @@
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
       "likes": 107,
       "id": "3"
+    },
+    {
+      "title": "New Post",
+      "author": "Mike",
+      "content": "Ça va merci",
+      "likes": 0,
+      "id": "EOO_4BY"
     }
   ],
   "users": [
     {
-      "pseudo": "user42",
-      "likes": 21,
+      "pseudo": "Mike",
+      "likes": 34,
       "id": 1
     }
   ]
