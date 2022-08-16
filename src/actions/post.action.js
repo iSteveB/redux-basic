@@ -55,14 +55,15 @@ export const deletePost = (postID) => {
     };
 };
 
-export const addLike = (postID) => {
+export const addLike = (data) => {
     return (dispatch) => {
         return axios({
-            method: 'delete',
-            url: `http://localhost:3000/posts/${postID}`,
+            method: 'put',
+            url: `http://localhost:3000/posts/${data.id}`,
+            data: {...data}
         })
             .then((res) => {
-                dispatch({ type: DELETE_POST, payload: {postID} });
+                dispatch({ type: ADD_LIKE, payload: {...data} });
             })
             .catch(err => console.log(err))
     };

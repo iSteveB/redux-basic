@@ -1,5 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { addLike } from "../actions/post.action";
+import { addUserLike } from "../actions/user.action";
 
 const Like = ({ post }) => {
 
@@ -22,7 +24,8 @@ const Like = ({ post }) => {
 
     }
 
-    dispatch(addLike(postData))
+    dispatch(addLike(postData));
+    dispatch(addUserLike(userData));
   }
 
   return (
